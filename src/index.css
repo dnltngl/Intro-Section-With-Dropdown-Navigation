@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font-Face Declarations */
+@font-face {
+  font-family: 'EpilogueItalic';
+  src: url('src\assets\fonts\Epilogue-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Epilogue';
+  src: url('src\assets\fonts\Epilogue-VariableFont_wght.ttf') format('truetype');
+  font-weight: nor;
+  font-style: normal; /* Changed to normal if the font is not italicized */
+}
