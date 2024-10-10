@@ -223,8 +223,12 @@ const Nav: React.FC = () => {
 
       {/* Right side buttons (Desktop) */}
       <div className="sm:flex hidden gap-10 ml-auto font-Epilogue-regular font-semibold text-neutral-MediumGray">
-        <button>Login</button>
-        <button className="hover:border border-black px-2">Register</button>
+        <button className="hover:border border-black px-3 py-2 rounded-xl">
+          Login
+        </button>
+        <button className="hover:border border-black px-3 py-2 rounded-xl">
+          Register
+        </button>
       </div>
     </nav>
   );
