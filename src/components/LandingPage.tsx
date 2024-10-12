@@ -7,16 +7,20 @@ import ImgMeet from "../assets/images/client-meet.svg";
 
 function LandingPage() {
   return (
-    <section className="space-y-5 sm:justify-center  sm:items-center ">
+    <section className="sm:justify-center  sm:items-center ">
       <div className="sm:flex ">
-        <picture className="order-2 sm:order-1 max-h-fit ">
-          <source media="(min-width:465px)" srcSet={ImageHeroDesktop} />
+        <picture className="order-2 sm:order-1 sm:max-h-fit sm:w-7/12 sm:mr-14 sm:mt-5 md:flex ">
+          <source
+            className=""
+            media="(min-width:465px)"
+            srcSet={ImageHeroDesktop}
+          />
           <img src={ImageHeroMobile} alt="Flowers" />
         </picture>
 
-        <div className=" container sm:flex sm:ml-40">
+        <div className=" container sm:flex sm:ml-40 ">
           <div className="items-center text-center sm:text-start">
-            <h1 className="text-4xl font-Epilogue font-bold text-neutral-AlmostBlack font my-5 mt-10 subpixel-antialiased sm:text-8xl sm:mt-36 sm:max-w-[11ch] ">
+            <h1 className="text-4xl font-Epilogue font-semibold text-neutral-AlmostBlack font my-5 mt-10 subpixel-antialiased sm:text-8xl sm:mt-36 sm:max-w-[11ch] ">
               Make remote work
             </h1>
             <p className=" text-md text-neutral-MediumGray font-Epilogue font-semibold mb-6 max-w-[36ch] ml-4 tracking-normal sm:mt-14  sm:max-w-[40ch]   ">
