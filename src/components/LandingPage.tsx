@@ -16,7 +16,7 @@ function LandingPage() {
 
         <div className=" container sm:flex sm:ml-40">
           <div className="items-center text-center sm:text-start">
-            <h1 className="text-4xl font-Epilogue font-bold text-neutral-AlmostBlack font my-5 mt-10 subpixel-antialiased sm:text-7xl sm:mt-36 sm:max-w-[11ch] ">
+            <h1 className="text-4xl font-Epilogue font-bold text-neutral-AlmostBlack font my-5 mt-10 subpixel-antialiased sm:text-8xl sm:mt-36 sm:max-w-[11ch] ">
               Make remote work
             </h1>
             <p className=" text-md text-neutral-MediumGray font-Epilogue font-semibold mb-6 max-w-[36ch] ml-4 tracking-normal sm:mt-14  sm:max-w-[40ch]   ">
@@ -30,7 +30,7 @@ function LandingPage() {
             >
               Learn More
             </button>
-            <div className="flex items-start gap-10 sm:mt-14">
+            <div className="flex items-start gap-10 sm:mt-5">
               <img className="w-16" src={ImgDatabiz} alt="Databiz" />
               <img className="w-14" src={ImgAudiophile} alt="Audiophile" />
               <img className="w-16" src={ImgMeet} alt="Meet" />
