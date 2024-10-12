@@ -29,12 +29,12 @@ const Nav: React.FC = () => {
   };
 
   return (
-    <nav className="mb-8 sm:flex mt-10 mx-10 relative ">
+    <nav className="mb-8 sm:flex mt-10 mx relative ">
       <div className="flex gap-10 justify-between items-center">
         <img className="sm:ml-9" src={Logo} alt="logo" />
 
         {/* Desktop Nav */}
-        <div className="hidden sm:flex gap-10 ml-10 font-Epilogue font-semibold text-neutral-MediumGray list-none">
+        <div className="hidden sm:flex gap-10 sm:ml-5 font-Epilogue font-semibold text-neutral-MediumGray list-none">
           <div className="relative">
             <button
               onClick={toggleFeatures}
