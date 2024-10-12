@@ -29,12 +29,12 @@ const Nav: React.FC = () => {
   };
 
   return (
-    <nav className="mb-8 sm:flex mt-10 mx-5 relative">
+    <nav className="mb-8 sm:flex mt-10 mx-10 relative ">
       <div className="flex gap-10 justify-between items-center">
         <img className="sm:ml-9" src={Logo} alt="logo" />
 
         {/* Desktop Nav */}
-        <div className="hidden sm:flex gap-10 font-Epilogue font-semibold text-neutral-MediumGray list-none">
+        <div className="hidden sm:flex gap-10 ml-10 font-Epilogue font-semibold text-neutral-MediumGray list-none">
           <div className="relative">
             <button
               onClick={toggleFeatures}
@@ -222,11 +222,11 @@ const Nav: React.FC = () => {
       </div>
 
       {/* Right side buttons (Desktop) */}
-      <div className="sm:flex hidden gap-10 ml-auto font-Epilogue-regular font-semibold text-neutral-MediumGray">
-        <button className="hover:border border-black px-3 py-2 rounded-xl">
+      <div className="sm:flex hidden gap-10 md:gap-5  ml-auto font-Epilogue-regular font-semibold text-neutral-MediumGray">
+        <button className="hover:outline outline-black px-3 py-2 rounded-xl">
           Login
         </button>
-        <button className="hover:border border-black px-3 py-2 rounded-xl">
+        <button className="hover:outline outline-black px-3 py-2 rounded-xl">
           Register
         </button>
       </div>
